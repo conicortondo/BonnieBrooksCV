@@ -1,0 +1,39 @@
+body {
+    background-color:bisque;
+    color:rgb(17, 56, 19);
+}
+
+
+header, section {
+    width: 960 px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section {
+    width: 40%;
+}
+
+img {
+    margin-right: 20px;
+}
+
+h2 { 
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type:symbols();
+
+}
+
+h5 {
+    color:olive;
+}
+header{
+    background-color: darkolivegreen;
+}
