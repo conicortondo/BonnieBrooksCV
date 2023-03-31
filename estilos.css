@@ -1,16 +1,18 @@
-
 body {
     background-color:bisque;
     color:#113813;
     width: 100%;  
     text-align: center;
-    font: 1rem 'Fira Sans', sans-serif
-}
 
+}
 header, section {
     width: 960 px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
+}
+
+body {
+    font: 1rem 'Fira Sans', sans-serif;
 }
 
 p {
@@ -21,20 +23,18 @@ section,article {
     text-decoration:dotted;
    
 }
-
-aside {
-    text-align: center;
-}
-
-article {
-    text-align: center;
-}
-
-h5,H4,h2 {
+h5,H4 {
     font-size:large;
-    font-family: 'Merienda', cursive;
+    font-family: "Sofia", sans-serif;
 }
 
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+H2,H4 {
+    font-size:larger;
+}
 
 img {
     margin-right: 80px;
@@ -53,8 +53,7 @@ h4 {
 }
 
 h5 {
-    color:rgb(34, 97, 10);
-    
+    color:olive;
 }
 header{
     background-color: darkolivegreen;
@@ -66,8 +65,8 @@ header{
 }
 
 ul {
-    text-align: center;
-    
+    text-align: left;
+    margin-left: 100px;
 }
 
 li {
@@ -82,63 +81,3 @@ button {
     font-family: "Sofia", sans-serif;
 
 }
-
-.contacto{
-    background-color: bisque;
-    padding: 140px 0 100px 0;
-    color: olive;
-    text-align: center;
-    font: 1rem 'Fira Sans', sans-serif;
-    }
-
-.contacto .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.contacto .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-.contacto .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-around;
-}
-.contacto .contenido-seccion .fila .col{
-    margin-top: 50px;
-}
-.contacto .contenido-seccion .fila .col h2{
-    color: #113813;
-    font: 1rem 'Fira Sans', sans-serif;
-    }
-
-i {
-    justify-content: space-around;
-}
-
-.formacion{
-    background-color: bisque;
-    color: olive;
-    text-align: center;
-    font: 1rem 'Fira Sans', sans-serif;
-    }
-
-.formacion .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-
-.formacion .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-around;
-}
-
-.formacion .contenido-seccion .fila .col{
-    margin-top: 50px;
-}
-
-.formacion .contenido-seccion .fila .col h2{
-    color: #113813;
-    font: 1rem 'Fira Sans', sans-serif;
-    }
